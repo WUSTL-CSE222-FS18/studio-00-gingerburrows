@@ -10,26 +10,44 @@ You can preview what your Markdown file will look like when styles are added by 
 1. Select `Toggle Preview` (You may also want to make a note of the shortcut keys listed so you can quickly open the preview in the future).
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
-
+Instead of the things to do being ordered numercially (i.e. 1,2,3...) they are all numbered with 1. but are displayed numercially. Words in quotation marks are displayed in blue and the line numbers are displayed in pink.
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
 
+1. Nectarines
+1. Hummus
+1. Avocado
+1. Peanut butter
+1. pancakes
+
 For each item that has multiple ingredients, create a sub list of a few (2-5) of the ingredients.  Make one of the sub-lists numbered and the other should use bullet points. (It should look like an outline: The ingredients for item n are indented and immediately below item n, but before item n+1)
 
 ***Q2. Create your list here:***
-
+1. Hummus
+  - chickpeas
+  - tahini
+  - lemon juice
+1. pancakes
+  - flour
+  - eggs
+  - salt
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
-
+### My Heading
 ### Code
 
 Markdown is often used to document code.  Consequently, it supports embedding code within documents.
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
+``` java
+for(int i=0; i<=10; i++){
+  System.out.println(i);
+}
+```
 
 ## Part 2: What is IoT
 
